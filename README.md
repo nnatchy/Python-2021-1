@@ -1,2 +1,3 @@
-# COM PROG Year 1 
-Grader Exam Python for Computer Engineering Students.
+# Python grader exam
+
+Grader Exam Python for COM PROG ECN 2021/1.
