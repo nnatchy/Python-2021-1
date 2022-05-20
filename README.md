@@ -1,3 +1,3 @@
 # Python COM PROG ECN 2021/1
 
-COM PROG ECN 2021/1 python
+workshop's still missing
