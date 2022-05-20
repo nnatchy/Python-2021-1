@@ -1,0 +1,17 @@
+u = input()
+u = u[1:-1].split(',')
+v = input()
+v = v[1:-1].split(',')
+k = [0]*3
+k[0] = float(float(u[0]) + float(v[0]))
+k[1] = float(float(u[1]) + float(v[1]))
+k[2] = float(float(u[2]) + float(v[2]))
+a = [0]*3
+a[0] = float(u[0])
+a[1] = float(u[1])
+a[2] = float(u[2])
+b = [0]*3
+b[0] = float(v[0])
+b[1] = float(v[1])
+b[2] = float(v[2])
+print(str(a) + ' + ' + str(b) + ' =',k )
