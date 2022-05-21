@@ -29,7 +29,7 @@ while want[0] != 'exit':
                 print('Transaction Failed')
             else:
                 if id2name[id] != name:
-                    print('Transaction Failed') #testcase 3
+                    print('Transaction Failed')
                 else:
                     if id2money[id] - money < 0:
                         print('Transaction Failed')
@@ -42,16 +42,16 @@ while want[0] != 'exit':
     elif len(want) == 5:
         name,id,cmd,goto,money = want[0],want[1],want[2],want[3],float(want[4])
         
-        if cmd == 'transfer': #testcase 2 ยุในนี้เช็คดีๆ 
+        if cmd == 'transfer':
             if id not in id2money:
                 print('Transaction Failed')
-            elif goto not in id2money: #testcase สุดท้าย
+            elif goto not in id2money:
                 print('Transaction Failed')
             else:
                 if id2name[id] != name:
                     print('Transaction Failed')
                 else:
-                    if id2money[id] - money < 0: #testcase 4
+                    if id2money[id] - money < 0:
                         print('Transaction Failed')
                     else:
                         id2money[id] -= money
